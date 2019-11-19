@@ -11,3 +11,9 @@ def LoadFile(file):
         list_[i] = list_[i].strip('\n')
     return list_
             
+def UpdateString(string1,string2,x):
+    s = list(string1)
+    s[x] = string2
+    f = "".join(s)
+    PrintOutput(f)
+    
