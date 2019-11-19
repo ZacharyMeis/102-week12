@@ -26,4 +26,14 @@ def FindWordCount(l,s):
                 x += 1
     return x
 
+def ScoreFinder(list1,list2,s):
+    x = -1
+    for i in range(len(list1)):
+        if list1[i].lower() == s.lower():
+            x += list2[i] + 1
+    if x == -1:
+        print("OUTPUT player not found")
+    else:
+        print("OUTPUT",s,"got a score of",x)
+
             
