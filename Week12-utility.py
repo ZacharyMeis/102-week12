@@ -17,3 +17,13 @@ def UpdateString(string1,string2,x):
     f = "".join(s)
     PrintOutput(f)
     
+def FindWordCount(l,s):
+    x = 0
+    for i in range(len(l)):
+        y = l[i].split()
+        for i in range(len(y)):
+            if y[i].lower() == s.lower():
+                x += 1
+    return x
+
+            
