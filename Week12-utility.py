@@ -47,4 +47,11 @@ def Union(s,g):
         if i not in e: 
             e.append(i)
     return e
+
+def Intersection(s,g):
+    b = []
+    for i in range(len(s)):
+        if s[i] in g:
+            b.append(s[i])
+    return b
             
