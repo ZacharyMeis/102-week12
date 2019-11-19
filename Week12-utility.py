@@ -36,4 +36,15 @@ def ScoreFinder(list1,list2,s):
     else:
         print("OUTPUT",s,"got a score of",x)
 
+def Union(s,g):
+    b = []
+    e = []
+    for i in range(len(s)):
+        b.append(s[i])
+    for i in range(len(g)):
+        b.append(g[i])
+    for i in b: 
+        if i not in e: 
+            e.append(i)
+    return e
             
