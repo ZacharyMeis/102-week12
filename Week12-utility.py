@@ -54,4 +54,11 @@ def Intersection(s,g):
         if s[i] in g:
             b.append(s[i])
     return b
+
+def NotIn(s,g):
+    b = []
+    for i in range(len(s)):
+        if s[i] not in g:
+            b.append(s[i])
+    return b
             
