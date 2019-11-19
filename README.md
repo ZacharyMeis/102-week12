@@ -1,2 +1,4 @@
-# 102-week12
-the lab from week 12 
+# Incremental build model
+# Zachary Meis
+# CSCI 102 - Section A
+# Week 12 - Part A
